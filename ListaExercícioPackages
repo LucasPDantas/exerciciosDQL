@@ -1,4 +1,4 @@
-```sql
+
 CREATE OR REPLACE PACKAGE PKG_ALUNO AS
     -- Procedure para excluir um aluno e todas as suas matrículas associadas no sistema
     PROCEDURE EXCLUIR_ALUNO (p_id_aluno IN NUMBER);
